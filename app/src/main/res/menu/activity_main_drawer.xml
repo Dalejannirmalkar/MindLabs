@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@mipmap/home"
+            android:title="home" />
+        <item
+            android:id="@+id/services"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Services" />
+        <item
+            android:id="@+id/portfolio"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Portfolio" />
+        <item
+            android:id="@+id/about"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="About" />
+        <item
+            android:id="@+id/team"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Team" />
+        <item
+            android:id="@+id/contact"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="Contact" />
+        <item
+            android:id="@+id/blog"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Blog" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>
